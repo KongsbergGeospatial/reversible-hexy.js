@@ -1,14 +1,14 @@
 {
-  "name": "reversible-hexy",
+  "name": "@kongsberggeospatial/reversible-hexy",
   "version": "0.3.5",
   "description": "hexdump, binary pretty-printing and binary generation from hexdump",
-  "author": "Tim Becker <tim.becker@kuriositaet.de>, Dominick Mancini <dominick.mancini@ontariotechu.net>",
+  "author": "Tim Becker <tim.becker@kuriositaet.de>, Dominick Mancini (on the behalf of Kongsberg Geospatial) <dominick.mancini@kongsberggeospatial.com>",
   "license": "MIT",
   "main": "dist/reversible-hexy.js",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git://github.com/rockwell95/reversible-hexy.js.git"
+    "url": "git://github.com/KongsbergGeospatial/reversible-hexy.js.git"
   },
   "engines": {
     "node": ">=10.4"
