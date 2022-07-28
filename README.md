@@ -9,7 +9,7 @@
  It creates a pleasant looking hex dump by default:
      
 ```javascript     
-var hexy = require('hexy'),
+var hexy = require('@kongsberggeospatial/reversible-hexy'),
     b = Buffer.from("\000\001\003\005\037\012\011bcdefghijklmnopqrstuvwxyz0123456789")
         // or String or Array containing numbers ( bytes, i.e. < 0xFF )
 
@@ -115,20 +115,20 @@ console.log(hexy.hexy(buffer, format))
  these days) :
    
 ```shell   
-$ npm install reversible-hexy
+$ npm install @kongsberggeospatial/reversible-hexy
 ```
 
  This will install the lib which you'll be able to use like so:
      
 ```javascript     
-var hexy = require("reversible-hexy"),
+var hexy = require("@kongsberggeospatial/reversible-hexy"),
     buf  = // get Buffer from somewhere,
     str  = hexy.hexy(buf)
  ```
 
  ```javascript
  // For converting hexdumps into Buffers
-var hexy = require("reversible-hexy"),
+var hexy = require("@kongsberggeospatial/reversible-hexy"),
     str  = // get string hexdump from somewhere
     buf  = hexy.unHexy(str);
 ```
@@ -139,12 +139,12 @@ var hexy = require("reversible-hexy"),
   
  If you don't like `npm`, grab the source from github:
  
-     https://github.com/Rockwell95/reversible-hexy.js
+     https://github.com/KongsbergGeospatial/reversible-hexy.js
  
  ## Typescript
 
 ```typescript
-import {hexy, unHexy} from "hexy";
+import {hexy, unHexy} from "@kongsberggeospatial/reversible-hexy";
 const buff = ...
 const str = ...
 console.log(hexy(buff));
